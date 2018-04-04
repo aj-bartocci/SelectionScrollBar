@@ -4,6 +4,8 @@
 [![License](https://img.shields.io/cocoapods/l/SelectionScrollBar.svg?style=flat)](http://cocoapods.org/pods/SelectionScrollBar)
 [![Platform](https://img.shields.io/cocoapods/p/SelectionScrollBar.svg?style=flat)](http://cocoapods.org/pods/SelectionScrollBar)
 
+![Example gif](https://github.com/aj-bartocci/SelectionScrollBar/blob/master/example.gif)
+
 ## Purpose
 
 The purpose of this project was to create a scrollable bar that allows users to make a selection. It was originally created to provide users with predictions as they type in a UITextField. The implementation is modeled after UITableView in a naive way.

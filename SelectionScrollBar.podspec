@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   A selectable horizontal scrollbar developed with Swift. Can be used with a UITextField as the inputAccessoryView or standalone. Originally created as a way to provide predictions to users as they type in a UITextField.
                        DESC
 
-  s.homepage         = 'https://github.com/AJ Bartocci/SelectionScrollBar'
+  s.homepage         = 'https://github.com/aj-bartocci/SelectionScrollBar.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'AJ Bartocci' => 'bartocci.aj@gmail.com' }

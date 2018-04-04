@@ -44,7 +44,7 @@ This function provides the index of the button that was tapped. This corresponds
 ```swift
 func selectionScrollBar(_ scrollBar: SelectionScrollBar, didSelectTitle title: String?)
 ```
-This function provides the title of the button that was tapped.
+This function provides the title of the button that was selected.
 
 ## Installation
 

@@ -1,30 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vOG-Hh-soa">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <scene sceneID="dhn-St-P7R">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="SelectionScrollBar_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vOG-Hh-soa" customClass="ViewController" customModule="SelectionScrollBar_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="2AQ-yx-xxN"/>
+                        <viewControllerLayoutGuide type="bottom" id="Q9K-KM-chO"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" id="e2W-5n-mZl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current selection:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ASV-1z-LUU">
+                                <rect key="frame" x="119" y="60" width="137" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qBY-f7-Cd6">
+                                <rect key="frame" x="26" y="81" width="323" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Nh-bk-VYa">
+                                <rect key="frame" x="56" y="122" width="263" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ble-EY-Vh3">
+                                <rect key="frame" x="56" y="179" width="51" height="31"/>
+                                <connections>
+                                    <action selector="actToggleSwitchWithTarget:" destination="vOG-Hh-soa" eventType="touchUpInside" id="ZoL-4y-91s"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Multi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7I-As-wti">
+                                <rect key="frame" x="119" y="184" width="38" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ASV-1z-LUU" firstAttribute="top" secondItem="2AQ-yx-xxN" secondAttribute="bottom" constant="40" id="4ao-8P-9u6"/>
+                            <constraint firstItem="1Nh-bk-VYa" firstAttribute="leading" secondItem="e2W-5n-mZl" secondAttribute="leadingMargin" constant="40" id="4bn-wm-inX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qBY-f7-Cd6" secondAttribute="trailing" constant="10" id="6wq-W3-BW3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1Nh-bk-VYa" secondAttribute="trailing" constant="40" id="9BM-d3-8Us"/>
+                            <constraint firstItem="qBY-f7-Cd6" firstAttribute="top" secondItem="ASV-1z-LUU" secondAttribute="bottom" id="ODR-Tn-RIk"/>
+                            <constraint firstItem="ASV-1z-LUU" firstAttribute="centerX" secondItem="e2W-5n-mZl" secondAttribute="centerX" id="UtK-Xl-WPc"/>
+                            <constraint firstItem="a7I-As-wti" firstAttribute="centerY" secondItem="Ble-EY-Vh3" secondAttribute="centerY" id="Xlh-0s-qjr"/>
+                            <constraint firstItem="Ble-EY-Vh3" firstAttribute="leading" secondItem="1Nh-bk-VYa" secondAttribute="leading" id="bLI-T6-aiU"/>
+                            <constraint firstItem="qBY-f7-Cd6" firstAttribute="leading" secondItem="e2W-5n-mZl" secondAttribute="leadingMargin" constant="10" id="f3Y-JO-LFW"/>
+                            <constraint firstItem="1Nh-bk-VYa" firstAttribute="top" secondItem="qBY-f7-Cd6" secondAttribute="bottom" constant="20" id="hid-If-rZn"/>
+                            <constraint firstItem="a7I-As-wti" firstAttribute="leading" secondItem="Ble-EY-Vh3" secondAttribute="trailing" constant="14" id="kwB-1u-vM2"/>
+                            <constraint firstItem="Ble-EY-Vh3" firstAttribute="top" secondItem="1Nh-bk-VYa" secondAttribute="bottom" constant="27" id="lHi-7h-xJh"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="contentSwitch" destination="Ble-EY-Vh3" id="xJO-pK-bGM"/>
+                        <outlet property="selectionLabel" destination="qBY-f7-Cd6" id="3nH-SE-bnq"/>
+                        <outlet property="textField" destination="1Nh-bk-VYa" id="Z1C-tk-0Sj"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XL8-he-3OZ" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-15" y="-463"/>
         </scene>
     </scenes>
 </document>

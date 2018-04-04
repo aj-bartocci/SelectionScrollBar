@@ -7,3 +7,19 @@
 //
 
 import Foundation
+import SelectionScrollBar
+
+class SelectionScrollBarTestDelegate: SelectionScrollBarDelegate {
+    
+    var selectedIndex: Int?
+    var selectedTitle: String?
+    
+    func selectionScrollBar(_ scrollBar: SelectionScrollBar, didSelectButtonAtIndex index: Int) {
+        self.selectedIndex = index
+    }
+    
+    func selectionScrollBar(_ scrollBar: SelectionScrollBar, didSelectTitle title: String?) {
+        self.selectedTitle = title
+    }
+    
+}

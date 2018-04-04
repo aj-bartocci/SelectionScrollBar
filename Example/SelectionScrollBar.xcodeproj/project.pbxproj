@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		215ED4CD2074228E00B945B2 /* SelectionScrollBarTestDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215ED4CB2074228E00B945B2 /* SelectionScrollBarTestDataSource.swift */; };
+		215ED4CE2074228E00B945B2 /* SelectionScrollBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215ED4CC2074228E00B945B2 /* SelectionScrollBarTests.swift */; };
+		215ED4D0207431EA00B945B2 /* SelectionScrollBarTestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215ED4CF207431EA00B945B2 /* SelectionScrollBarTestDelegate.swift */; };
 		4439B6E161BEAFB18B2C0A79 /* Pods_SelectionScrollBar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C712F06D688752E2824333BF /* Pods_SelectionScrollBar_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		C7C50A70CEDB1BAF28D4F85A /* Pods_SelectionScrollBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D340029117C8558470334D63 /* Pods_SelectionScrollBar_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +31,10 @@
 
 /* Begin PBXFileReference section */
 		0B33F4CBB25E0D1947F1DA89 /* Pods-SelectionScrollBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelectionScrollBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SelectionScrollBar_Example/Pods-SelectionScrollBar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0EF3B67B2C77DAE49E5D7FE3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0EF3B67B2C77DAE49E5D7FE3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		215ED4CB2074228E00B945B2 /* SelectionScrollBarTestDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionScrollBarTestDataSource.swift; sourceTree = "<group>"; };
+		215ED4CC2074228E00B945B2 /* SelectionScrollBarTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionScrollBarTests.swift; sourceTree = "<group>"; };
+		215ED4CF207431EA00B945B2 /* SelectionScrollBarTestDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionScrollBarTestDelegate.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SelectionScrollBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectionScrollBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,10 +44,9 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* SelectionScrollBar_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelectionScrollBar_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6C0F6041A1CA9543048C2790 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6C0F6041A1CA9543048C2790 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		823FB1E6E8A4A060CF084A1F /* Pods-SelectionScrollBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelectionScrollBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SelectionScrollBar_Tests/Pods-SelectionScrollBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8A511C759E139EB109BE91C3 /* SelectionScrollBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SelectionScrollBar.podspec; path = ../SelectionScrollBar.podspec; sourceTree = "<group>"; };
+		8A511C759E139EB109BE91C3 /* SelectionScrollBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SelectionScrollBar.podspec; path = ../SelectionScrollBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BAA07A2EC1CC6B5DAAC50648 /* Pods-SelectionScrollBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelectionScrollBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SelectionScrollBar_Tests/Pods-SelectionScrollBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C712F06D688752E2824333BF /* Pods_SelectionScrollBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SelectionScrollBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D340029117C8558470334D63 /* Pods_SelectionScrollBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SelectionScrollBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,7 +128,9 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				215ED4CB2074228E00B945B2 /* SelectionScrollBarTestDataSource.swift */,
+				215ED4CF207431EA00B945B2 /* SelectionScrollBarTestDelegate.swift */,
+				215ED4CC2074228E00B945B2 /* SelectionScrollBarTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -384,7 +390,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				215ED4CE2074228E00B945B2 /* SelectionScrollBarTests.swift in Sources */,
+				215ED4D0207431EA00B945B2 /* SelectionScrollBarTestDelegate.swift in Sources */,
+				215ED4CD2074228E00B945B2 /* SelectionScrollBarTestDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,7 +531,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SelectionScrollBar/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -538,7 +547,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SelectionScrollBar/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -560,7 +570,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -577,7 +587,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
